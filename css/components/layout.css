@@ -1,0 +1,25 @@
+.container {
+    display: inline-block;
+    width: 1170px;
+    margin: 0 calc(50% - 585px);
+}
+@media (max-width: 1200px) {
+    .container{
+        width: 970px;
+        margin: 0 calc(50% - 485px);
+    }
+}
+
+@media (max-width: 992px) {
+    .container{
+        width: 750px;
+        margin: 0 calc(50% - 375px);
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 100%;
+        margin: 0
+    }
+}
