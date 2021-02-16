@@ -25,6 +25,9 @@ Design: [Martin](http://inventheme.com/themeforest/martin/)
 
 ## Authors
 
+Ernestas: [Github](https://github.com/Ernestas-dev)
+Ignas: [Github](https://github.com/mardexina)
+Jonas: [Github](https://github.com/JJaug)
+Justas: [Github](https://github.com/Justas0001)
+Milda: [Github](https://github.com/mildapaulavi)
 Rimantas: [Github](https://github.com/belauzas)
-
-_susirašome savo vardus ir nuorodas į Github profilį ir/arba Linkedin profilį_
