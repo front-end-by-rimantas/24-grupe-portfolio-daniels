@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     background-color: #343434;
+    background-image: none;
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -49,10 +50,9 @@
     color: #fff4;
 }
 
-
+@media (max)
 
 @media (max-width: 795px) {
-.hero {
 
 }
     }
