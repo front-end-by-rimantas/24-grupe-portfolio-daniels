@@ -8,6 +8,7 @@
     background-size: cover;
     background-position: center;
     color: #fff;
+    font-family: poppins;
     min-height: 100vh;
     margin-bottom: 100px;
     width: 100%;
@@ -17,8 +18,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: 800px;
 }
+.introduction > h2 {
+    font-family: poppins;
+    font-size: 30px;
+}
+.iam {
+    font-family: poppins;
+    font-weight: lighter;
+}
+
 
 .fa {
     display: inline-block;
@@ -42,7 +53,7 @@
 
 @media (max-width: 795px) {
 .hero {
-    
+
 }
     }
 }
