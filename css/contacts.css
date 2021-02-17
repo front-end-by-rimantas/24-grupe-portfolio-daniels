@@ -13,23 +13,40 @@
     display: inline-block;
     font-size: 40px;
 }
+.all-icons{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 50px;
+}
 
-
-.icons{
+.icons-group{
     display: inline-block;
     width: calc(100% / 3);
     float: left;
-    margin-bottom: 50px;
-    padding: 10px 20px;
+    padding: 0 20px;
     text-align: center;
 }
-.icons > h2{
+.icons-group > h2{
     margin-top: 10px;
     font-size: 18px;
 }
 
-.icons > p {
+.icons-group > p {
     margin-top: 10px;
+}
+
+.icons-group .icon {
+    display: inline-block;
+    font-size: 25px;
+    background-color: #f4f4f4;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    
+}
+.icon:hover {
+    background-color: darkblue;
 }
 
 
