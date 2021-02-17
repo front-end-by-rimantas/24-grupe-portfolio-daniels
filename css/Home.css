@@ -3,3 +3,6 @@
 @import 'services.css';
 
 /* CUSTOM HOME PAGE CSS */
+
+/* HERO */
+@import './components/hero.css'
