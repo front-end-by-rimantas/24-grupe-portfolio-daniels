@@ -1,5 +1,8 @@
 @import './components/reset.css';
 @import './components/layout.css';
+@import './contacts.css';
+@import './font-awesome.min.css';
 @import 'services.css';
+
 
 /* CUSTOM HOME PAGE CSS */
