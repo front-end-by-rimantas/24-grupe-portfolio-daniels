@@ -38,15 +38,20 @@
 .icons-group .icon {
     display: inline-block;
     font-size: 25px;
-    background-color: #f4f4f4;
     width: 60px;
     height: 60px;
     line-height: 60px;
     border-radius: 50%;
+    background-color: #f4f4f4;
+    color: #343434;
+    cursor: pointer;
+
     
 }
 .icon:hover {
-    background-color: darkblue;
+    background-color: #343434;
+    color: #f7f7f7;
+    transition: 0.5s;
 }
 
 
@@ -70,6 +75,7 @@
     border: 0;
     border-radius: 5px;
     background: #f4f4f4;
+    
 }
 .form > input {
     width: calc((100% - 40px) / 2);
