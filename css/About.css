@@ -1,18 +1,15 @@
-/* INIT / IMPORTS */
-@import './components/reset.css';
-@import './components/layout.css';
+.about-me {
+    display: inline-block;
+    width: 100%;
+}
+.left-about-me {
+    display: inline-block;
+    float: left;
+}
 
-/* 3D PARTY */
-/* COMPONENTS */
-/* CUSTOM HOME PAGE CSS */
+.right-about.me {
+    display: inline-block;
+    float: left;
+    width: 60%;
+}
 
-/* header */
-/* hero */
-/* about me */
-/* services */
-/* portfolio */
-/* testimonials */
-/* testimonial numbers */
-/* blog */
-/* contact us */
-/* footer */
