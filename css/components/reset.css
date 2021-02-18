@@ -5,3 +5,10 @@ body *{
     vertical-align: top;
     box-sizing: border-box;
 }
+
+:root {
+    --background-color-1: #fff;
+    --background-color-2: #f7f7f7;
+    --button-icon-color-1: #343434;
+    --button-icon-color-2: #fff;
+}
