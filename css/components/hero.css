@@ -9,7 +9,6 @@
     background-size: cover;
     background-position: center;
     color: #fff;
-    font-family: poppins;
     min-height: 100vh;
     margin-bottom: 100px;
     width: 100%;
@@ -23,14 +22,42 @@
     font-weight: 800px;
 }
 .introduction > h2 {
-    font-family: poppins;
     font-size: 30px;
-}
-.iam {
-    font-family: poppins;
     font-weight: lighter;
 }
 
+b {
+    font-weight: normal;
+}
+
+.cd-headline.clip .cd-words-wrapper {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    white-space: nowrap;
+
+}
+.cd-headline.clip .cd-words-wrapper::after {
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 0px;
+    background-color: #fff;
+    z-index: 2;
+  -webkit-transition: width 0.3s -0.1s;
+  -moz-transition: width 0.3s -0.1s;
+  transition: width 0.3s -0.1s;
+}
+
+.cd-headline.clip b.is-visible {
+    opacity: 1;
+}
+
+.cd-headline.clip b.is-hidden {
+    display: none;
+}
 
 .fa {
     display: inline-block;
