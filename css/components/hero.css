@@ -17,6 +17,7 @@
 .introduction > h1 {
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
     justify-content: center;
     font-size: 50px;
     font-weight: 800px;
@@ -31,28 +32,18 @@ b {
 }
 
 .cd-headline.clip .cd-words-wrapper {
-    display: inline-block;
-    overflow: hidden;
-    vertical-align: top;
     white-space: nowrap;
 
 }
-.cd-headline.clip .cd-words-wrapper::after {
-    content:'';
+.is-visible::after {
+    content: '';
     position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 1px;
-    width: 0px;
+    top: 6px;
+    right: 0;
+    width: 2px;
+    height: 80%;
     background-color: #fff;
-    z-index: 2;
-  -webkit-transition: width 0.3s -0.1s;
-  -moz-transition: width 0.3s -0.1s;
-  transition: width 0.3s -0.1s;
-}
 
-.cd-headline.clip b.is-visible {
-    opacity: 1;
 }
 
 .cd-headline.clip b.is-hidden {
