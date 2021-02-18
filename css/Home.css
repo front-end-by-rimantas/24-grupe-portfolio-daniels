@@ -4,6 +4,5 @@
 @import './font-awesome.min.css';
 @import './services.css';
 @import './blog.css';
-
-
+@import 'services.css';
 /* CUSTOM HOME PAGE CSS */
