@@ -50,7 +50,7 @@ b {
     display: none;
 }
 
-.fa {
+.socials>.fa {
     display: inline-block;
     margin-top: 30px;
     width: 30px;
