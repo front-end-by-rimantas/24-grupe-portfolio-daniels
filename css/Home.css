@@ -4,11 +4,10 @@
 @import './font-awesome.min.css';
 @import './services.css';
 @import './blog.css';
-@import 'services.css';
 @import './works.css';
 @import './nav.css';
-
+@import './footer.css';
 /* CUSTOM HOME PAGE CSS */
 
 /* HERO */
-@import './components/hero.css'
+@import './hero.css';
