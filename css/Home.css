@@ -6,7 +6,11 @@
 @import './blog.css';
 @import './works.css';
 @import './nav.css';
-@import './footer.css';
+@import './numbers.css';
+
+
+import './footer.css';
+
 /* CUSTOM HOME PAGE CSS */
 
 /* HERO */
