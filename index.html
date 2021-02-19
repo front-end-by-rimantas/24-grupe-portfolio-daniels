@@ -13,9 +13,28 @@
 <body>
     <section class="container">
         <!-- header -->
-
+        <header class="nav">
+            <div class="logo">
+                <a href="#home">Daniels</a>
+            </div>
+            <ul class="nav-links">
+                <li><a data-page="home" href="#home">Home</a></li>
+                <li><a data-page="about" href="#about">About</a></li>
+                <li><a data-page="services" href="#services">Services</a></li>
+                <li><a data-page="works" href="#works">Works</a></li>
+                <li><a data-page="clients" href="#clients">Clients</a></li>
+                <li><a data-page="blog" href="#blog">Blog</a></li>
+                <li><a data-page="contacts" href="#contacts">Contacts</a></li>
+                <div class="underline"></div>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </header>
         <!-- hero -->
-        <section class="hero">
+        <section data-index="0" id="home" class="hero">
                  <div class="introduction">
                      <h1>Hello</h2>
                      <h2 class="cd-headline clip">
@@ -38,7 +57,7 @@
     <main class="container">
         <!-- about me -->
         <!-- services -->
-        <section>
+        <section data-index="1" id="services">
             <section class= section-container>
                 <div class="section-header">
                     <h3>Services.</h3>
@@ -207,7 +226,7 @@
             </section>
         </section>
         <!-- contact me -->
-        <section class="padding">
+        <section data-index="0" id="contacts" class="padding">
             <div  class="contacts">
             <div class="contacts-head">
                 <h1>Contact Us.</h1>

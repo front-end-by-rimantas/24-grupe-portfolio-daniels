@@ -2,6 +2,7 @@
     display: inline-block;
     width: 1170px;
     margin: 0 calc(50% - 585px);
+    position: relative;
 }
 @media (max-width: 1200px) {
     .container{
