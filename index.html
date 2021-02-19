@@ -7,23 +7,313 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <!-- favicon -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/Home.css">
 </head>
 
 <body>
-    <!-- header -->
-    <!-- hero -->
-    <!-- about me -->
-    <!-- services -->
-    <!-- resume -->
-    <!-- freelance -->
-    <!-- portfolio -->
-    <!-- testimonials -->
-    <!-- blogs -->
-    <!-- contact me -->
-    <!-- footer -->
 
+    <!-- header -->
+    <section class="container">
+        <header class="nav row">
+            <div class="logo">
+                <a href="#home">Daniels</a>
+            </div>
+            <ul class="nav-links">
+                <li><a data-page="home" href="#home">Home</a></li>
+                <li><a data-page="about" href="#about">About</a></li>
+                <li><a data-page="services" href="#services">Services</a></li>
+                <li><a data-page="works" href="#works">Works</a></li>
+                <li><a data-page="clients" href="#clients">Clients</a></li>
+                <li><a data-page="blog" href="#blog">Blog</a></li>
+                <li><a data-page="contacts" href="#contacts">Contacts</a></li>
+                <div class="underline"></div>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </header>
+    </section>
+
+    <main>
+
+            <!-- hero -->
+        <section data-index="0" id="home" class="hero container">
+                    <div class="introduction row">
+                        <h1>Hello</h1>
+                        <h2 class="cd-headline clip is-full-width row">
+                            <span class="dynamic-title">I Am</span>
+                            <span class="cd-words-wrapper">
+                        <b class="is-visible">Larry Daniels</b>
+                        <b>Developer</b>
+                        <b>Designer</b>
+                        </span>
+                    </h2>
+                    </div>
+                    <div class="socials row">
+                        <a href="#" class="fa fa-facebook" ></a>
+                        <a href="#" class="fa fa-twitter" ></a>
+                        <a href="#" class="fa fa-linkedin" ></a>
+                        <a href="#" class="fa fa-behance" ></a>
+                        <a href="#" class="fa fa-youtube" ></a>
+                    </div>
+        </section>
+        <!-- about me -->
+        <!-- services -->
+        <section data-index="1" id="services" class="container section-container">
+                <div class="section-header row">
+                    <h3>Services.</h3>
+                </div>
+                <div class="row">
+                    <div class="item">
+                        <span class="service-icon">
+                            <i class="fa fa-laptop" aria-hidden="true"></i>
+                        </span>                  
+                        <h4>Web Design</h4>
+                        <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+                    </div>
+
+                    <div class="item">
+                        <span class="service-icon">
+                        <i class="fa fa-bullhorn" aria-hidden="true"></i>
+
+                        </span>
+                        <h4>Branding</h4>
+                        <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+                    </div>
+
+                    <div class="item">
+                        <span class="service-icon">
+                        <i class="fa fa-umbrella" aria-hidden="true"></i>
+
+                        </span>
+                        <h4>Development</h4>
+                        <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+                    </div>
+
+                    <div class="item">
+                            <span class="service-icon">
+                            <i class="fa fa-diamond" aria-hidden="true"></i>
+                        </span>
+                        <h4>Creative Design</h4>
+                        <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+                    </div>
+                    <div class="item">
+                            <span class="service-icon">    
+                            <i class="fa fa-television" aria-hidden="true"></i>                    
+                        </span>
+                        <h4>Fully Responsive</h4>
+                        <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+                    </div>
+
+                    <div class="item">
+                        <span class="service-icon">
+                            <i class="fa fa-camera" aria-hidden="true"></i>
+                        </span>
+                        <h4>Retina Display</h4>
+                        <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+                    </div>
+                </div>
+        </section>
+        
+        <!-- resume -->
+        <!-- freelance -->
+        <!-- portfolio -->
+        <!-- testimonials -->
+        <!-- numbers -->
+     
+        <section class="numbers-section container">
+            <div class="items row">
+                <div class="numbers-item">
+                    <i class="fa fa-users" aria-hidden="true"></i>
+                    
+                    <div>850</div>
+                        <p>Happy Customers</p>
+
+
+                </div>
+                <div class="numbers-item">
+                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                    
+                    <div>230</div>
+                        <p>Complete Projects</p>
+
+
+                </div>
+                <div class="numbers-item">
+                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                    <div>9450</div>
+                        <p>Lines of Code</p>
+
+                </div>
+                <div class="numbers-item">
+                    <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                    
+                    <div> 780</div>
+                        <p>Files Downloaded</p>
+
+
+                </div>
+            </div>
+                                
+        </section>
+
+        <section class="section-container container">
+            <div class="section-header">
+            <h3>Portfolio.</h3>
+            _______filters_______
+            </div>
+            <div class="row">
+                <div class="works-content">
+                    <div class="item works-item">
+                        <img class="item-img" src="img\1.jpg" alt="Worpress Img">
+                        <div class="overlay">
+                            <h5 class="works-item-header">Web Design</h5>
+                            logo
+                        </div>
+                    </div>             
+                </div>                
+                <div class="works-content">
+                    <div class="item works-item">
+                        <img class="item-img" src="img\2.jpg" alt="Worpress Img">
+                        <div class="overlay">
+                            <h5 class="works-item-header">Web Design</h5>
+                            logo
+                        </div>
+                    </div>             
+                </div>                
+                <div class="works-content">
+                    <div class="item works-item">
+                        <img class="item-img" src="img\3.jpg" alt="Worpress Img">
+                        <div class="overlay">
+                            <h5 class="works-item-header">Web Design</h5>
+                            logo
+                        </div>
+                    </div>             
+                </div>                
+                <div class="works-content">
+                    <div class="item works-item">
+                        <img class="item-img" src="img\4.jpg" alt="Worpress Img">
+                        <div class="overlay">
+                            <h5 class="works-item-header">Web Design</h5>
+                            logo
+                        </div>
+                    </div>             
+                </div>                
+                <div class="works-content">
+                    <div class="item works-item">
+                        <img class="item-img" src="img\5.jpg" alt="Worpress Img">
+                        <div class="overlay">
+                            <h5 class="works-item-header">Web Design</h5>
+                            logo
+                        </div>
+                    </div>             
+                </div>                
+                <div class="works-content">
+                    <div class="item works-item">
+                        <img class="item-img" src="img\6.jpg" alt="Worpress Img">
+                        <div class="overlay">
+                            <h5 class="works-item-header">Web Design</h5>
+                            logo
+                        </div>
+                    </div>             
+                </div>  
+            </div>              
+        </section>
+        <!-- testimonials -->
+        <!-- blogs -->
+        <section class="blog-container container">
+            <div class="blog-header row">
+                <h3>Our Blog.</h3>
+            </div>
+            <div class="blog-content row">
+                <div class="blog-item">
+                    <img class="item-img" src="img/blog1.jpg" alt="Worpress Img">
+                    <div class="blog-item-box">
+                        <h5>Trends</h5>
+                        <h4>Best Design Items to Appeal to the Milennial Generation</h4>
+                        <a href="#">Read More</a></div>
+                    
+                </div>
+
+                <div class="blog-item">
+                    <img class="item-img" src="img/blog2.jpg" alt="Worpress Img">
+                    <div class="blog-item-box">
+                        <h5>Wordpress</h5>
+                        <h4>Top Wordpress Themes and Plugins for Hotels, Travel, and</h4>
+                        <a href="#">Read More</a>
+                    </div>
+
+                </div>
+                <div class="blog-item">
+                    <img class="item-img" src="img/blog3.jpg" alt="Worpress Img">
+                    <div class="blog-item-box">
+                        <h5>Trends</h5>
+                        <h4>Master These Awesome New Skills in March 2018</h4>
+                        <a href="#">Read More</a>
+                    </div>
+                    
+                </div>
+                <div class="blog-item">
+                    <img class="item-img" src="img/blog4.jpg" alt="Worpress Img">
+                    <div class="blog-item-box">
+                        <h5>Themeforest</h5>
+                        <h4>The 20 Best Lightroom Presets You Need to Know About</h4>
+                        <a href="#">Read More</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- contact me -->
+        <section data-index="0" id="contacts" class="padding container contacts">
+            <div class="contacts-head row">
+                <h3>Contact Us.</h3>
+            </div>
+            <div class="all-icons row">
+                <div class="icons-group">
+                    <span class="icon">
+                    <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                    </span>
+                    <h2>Adress</h2>
+                    <p>6834 Hollywood Blvd - Los Angeles CA</p> 
+                </div>
+                <div class="icons-group">
+                    <span class="icon">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </span>
+                    <h2>Email</h2>
+                    <p>Support@website.com</p> 
+                </div>
+                <div class="icons-group">
+                    <span class="icon">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    </span>
+                    <h2>Phone</h2>
+                    <p>+20 010 2517 8918</p> 
+                </div>
+            </div>
+            <form class="form row">
+                    <input class="input-pad input-marg" type="text" placeholder="Name">
+                    <input class="input-pad input-marg" type="email" placeholder="Email">
+                <div>
+                    <textarea placeholder="Message"></textarea>
+                    <button class="btn" type="submit">submit</button>
+                </div>
+            </form>
+        </section>
+        
+    </main>
+        <!-- footer -->
+    <footer class="container center">
+        <div class="copyright row">
+            <p> Copy Right 2018 © By Daniels All Rights Reserved </p>
+        </div>    
+    </footer>
     <script src="./js/Home.js" type="module"></script>
+    <script src="./js/components/Introduction.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,70 @@
+.hero {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(.././img/bg.jpg);
+    background-color: #343434;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    min-height: 100vh;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.introduction > h1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 800px;
+}
+.introduction > h2 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+b {
+    font-weight: normal;
+}
+
+.cd-headline.clip .cd-words-wrapper {
+    white-space: nowrap;
+
+}
+.is-visible::after {
+    content: '';
+    position: absolute;
+    top: 6px;
+    right: 0;
+    width: 2px;
+    height: 80%;
+    background-color: #fff;
+
+}
+
+.cd-headline.clip b.is-hidden {
+    display: none;
+}
+
+.socials>.fa {
+    display: inline-block;
+    margin-top: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    transition: all 1s;
+    background-color: #fff2;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.socials > .fa:hover {
+    background-color: #fff4;
+    color: #fff4;
+}
+
