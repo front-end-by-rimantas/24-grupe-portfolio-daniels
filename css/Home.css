@@ -9,7 +9,7 @@
 @import './numbers.css';
 
 
-import './footer.css';
+@import './footer.css';
 
 /* CUSTOM HOME PAGE CSS */
 
