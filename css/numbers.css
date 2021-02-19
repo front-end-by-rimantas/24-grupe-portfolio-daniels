@@ -1,0 +1,31 @@
+.numbers-section{
+    padding:50px 70px;
+}
+
+
+.items{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+.numbers-item>p{
+    font-size:15px;
+    font-family: 'Poppins' sans-serif;
+}
+.numbers-item{
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .numbers-item{
+        width:50%;
+    }   
+}
+@media (max-width: 576px) {
+    .numbers-item{
+        width:100%;
+    }
+}

@@ -1,0 +1,10 @@
+/* footer */
+.copyright {
+    background-color: #1c1c1c;
+    color: #748182;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding:30px;
+    width: 100%;
+    font-size: 13px;
+   }
