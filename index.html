@@ -7,19 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <!-- favicon -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/Home.css">
 </head>
 
 <body>
     <section class="container">
         <!-- header -->
-
+        <header class="nav">
+            <div class="logo">
+                <a href="#home">Daniels</a>
+            </div>
+            <ul class="nav-links">
+                <li><a data-page="home" href="#home">Home</a></li>
+                <li><a data-page="about" href="#about">About</a></li>
+                <li><a data-page="services" href="#services">Services</a></li>
+                <li><a data-page="works" href="#works">Works</a></li>
+                <li><a data-page="clients" href="#clients">Clients</a></li>
+                <li><a data-page="blog" href="#blog">Blog</a></li>
+                <li><a data-page="contacts" href="#contacts">Contacts</a></li>
+                <div class="underline"></div>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </header>
         <!-- hero -->
-        <section class="hero">
+        <section data-index="0" id="home" class="hero">
                  <div class="introduction">
                      <h1>Hello</h2>
-                     <h2 class="cd-headline clip">
-                         <span class="iam">I Am</span>
+                     <h2 class="cd-headline clip is-full-width">
+                         <span class="dynamic-title">I Am</span>
                          <span class="cd-words-wrapper">
                         <b class="is-visible">Larry Daniels</b>
                         <b>Developer</b>
@@ -38,46 +58,59 @@
     <main class="container">
         <!-- about me -->
         <!-- services -->
-        <section>
+        <section data-index="1" id="services">
             <section class= section-container>
                 <div class="section-header">
                     <h3>Services.</h3>
                 </div>
                 
                 <div class="item">
-                    <div>Logo</div>
+                    <span class="service-icon">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                    </span>                  
                     <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, id? Laboriosam deleniti, sit eligendi velit ipsum officiis asperiores non ab?s</p>
+                    <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
                 </div>
 
                      <div class="item">
-                    <div>Logo</div>
-                    <h4>Branding</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, id? Laboriosam deleniti, sit eligendi velit ipsum officiis asperiores non ab?s</p>
+                     <span class="service-icon">
+                        <i class="fa fa-bullhorn" aria-hidden="true"></i>
+
+                    </span>
+                     <h4>Branding</h4>
+                    <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
                 </div>
 
                      <div class="item">
-                    <div>Logo</div>
+                    <span class="service-icon">
+                        <i class="fa fa-umbrella" aria-hidden="true"></i>
+
+                    </span>
                     <h4>Development</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, id? Laboriosam deleniti, sit eligendi velit ipsum officiis asperiores non ab?s</p>
+                    <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
                 </div>
 
                      <div class="item">
-                    <div>Logo</div>
+                        <span class="service-icon">
+                            <i class="fa fa-diamond" aria-hidden="true"></i>
+                    </span>
                     <h4>Creative Design</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, id? Laboriosam deleniti, sit eligendi velit ipsum officiis asperiores non ab?s</p>
+                    <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
                 </div>
-
                      <div class="item">
-                    <div>Logo</div>
+                        <span class="service-icon">    
+                            <i class="fa fa-television" aria-hidden="true"></i>                    
+                    </span>
                     <h4>Fully Responsive</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, id? Laboriosam deleniti, sit eligendi velit ipsum officiis asperiores non ab?s</p>
+                    <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
                 </div>
 
                      <div class="item">
-                    <div>Logo</div>
+                        <span class="service-icon">
+                            <i class="fa fa-camera" aria-hidden="true"></i>
+                    </span>
                     <h4>Retina Display</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, id? Laboriosam deleniti, sit eligendi velit ipsum officiis asperiores non ab?s</p>
+                    <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
                 </div>
             </section>
         </section>
@@ -87,8 +120,54 @@
         <!-- portfolio -->
         <!-- testimonials -->
         <!-- blogs -->
+        <section>
+            <section class= blog-container>
+                <div class="blog-header">
+                    <h3>Our Blog.</h3>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-item">
+                        <img class="item-img" src="img/blog1.jpg" alt="Worpress Img">
+                        <div class="blog-item-box">
+                            <h5>Trends</h5>
+                            <h4>Best Design Items to Appeal to the Milennial Generation</h4>
+                            <a href="#">Read More</a></div>
+                        
+                    </div>
+
+                    <div class="blog-item">
+                        <img class="item-img" src="img/blog2.jpg" alt="Worpress Img">
+                        <div class="blog-item-box">
+                            <h5>Wordpress</h5>
+                            <h4>Top Wordpress Themes and Plugins for Hotels, Travel, and</h4>
+                            <a href="#">Read More</a>
+                        </div>
+
+                    </div>
+                    <div class="blog-item">
+                        <img class="item-img" src="img/blog3.jpg" alt="Worpress Img">
+                        <div class="blog-item-box">
+                            <h5>Trends</h5>
+                            <h4>Master These Awesome New Skills in March 2018</h4>
+                            <a href="#">Read More</a>
+                        </div>
+                        
+                    </div>
+                    <div class="blog-item">
+                        <img class="item-img" src="img/blog4.jpg" alt="Worpress Img">
+                        <div class="blog-item-box">
+                            <h5>Themeforest</h5>
+                            <h4>The 20 Best Lightroom Presets You Need to Know About</h4>
+                            <a href="#">Read More</a>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </section>
+        </section>
         <!-- contact me -->
-        <section class="padding">
+        <section data-index="0" id="contacts" class="padding">
             <div  class="contacts">
             <div class="contacts-head">
                 <h1>Contact Us.</h1>
@@ -128,11 +207,13 @@
             </div>
         </div>
         </section>
+        
     </main>
     <footer class="container">
         <!-- footer -->
     </footer>
     <script src="./js/Home.js" type="module"></script>
+    <script src="./js/components/Introduction.js"></script>
 </body>
 
 </html>
