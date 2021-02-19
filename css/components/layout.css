@@ -1,8 +1,9 @@
 .container {
     display: inline-block;
-    width: 100%;
     float: left;
-  
+    width: 1170px;
+    margin: 0 calc(50% - 585px);
+    position: relative;
 }
 .container > .row {
     display: inline-block;
