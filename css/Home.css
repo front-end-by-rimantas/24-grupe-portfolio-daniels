@@ -4,10 +4,9 @@
 @import './font-awesome.min.css';
 @import './services.css';
 @import './blog.css';
-@import 'services.css';
 @import './nav.css';
 
 /* CUSTOM HOME PAGE CSS */
 
 /* HERO */
-@import './components/hero.css'
+@import './hero.css';
