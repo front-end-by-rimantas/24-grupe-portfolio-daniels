@@ -1,10 +1,25 @@
 
-.box>h4{
+#box>h4{
     margin-bottom:15px;
 }
-.box>h5{
+#box>h5{
     margin-bottom:15px;
+}
+#box{
+    margin:0;
+    padding:30px 15px;
 }
 .not{
     display:none;
+}
+.zoom>div>img{
+    transition: 0.5s;
+}
+.zoom>div:hover>img{
+    transform: scale(1.18);
+    transition: 0.5s;
+}
+.zoom>div{
+    overflow:hidden;
+    max-height:100%;
 }
