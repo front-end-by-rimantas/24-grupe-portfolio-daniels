@@ -7,6 +7,10 @@
 @import './works.css';
 @import './nav.css';
 @import './numbers.css';
+@import './components/utilities.css';
+@import './colours.css';
+
+
 
 
 @import './footer.css';
