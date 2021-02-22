@@ -1,14 +1,30 @@
 /* TODO: pataisyti nav kai bus pataisyti sectionai */
-.nav {
+header > .nav {
     display: flex;
-    justify-content: space-between;
-    min-height: 8vh;
     position: absolute;
-    top: 20px;
     left: 0px;
     z-index: 1;
-    width: 100%;
     align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    width: 100%;
+}
+
+.nav.fixed-nav {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    height: 80px;
+    padding: 0;
+    
+}
+
+.nav.fixed-nav a {
+    color: #000;
+}
+
+.nav.fixed-nav > .burger > div {
+    background-color: #000;
 }
 
 .logo {
@@ -16,13 +32,14 @@
     font-weight: bold;
     letter-spacing: 1px;
     font-size: 18px;
-    margin-left: 3%;
+
 }
 
 .underline {
     position: absolute;
-    z-index: 4;
+    z-index: 2;
     background-color: #000;
+    transition: 0.3s;
 }
 
 .nav a {
@@ -40,13 +57,19 @@
     width: 50%;
     font-size: 14px;
     letter-spacing: 1px;
-    margin-right: 3%;
+
+}
+
+.fixed-nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .burger {
     display: none;
     cursor: pointer;
-    margin-right: 3%;
+
 }
 
 .burger > div {
@@ -62,13 +85,16 @@
         position: absolute;
         flex-direction: column;
         height: 35vh;
-        top: 10vh;
+        top: 8vh;
         width: 100%;
         background-color: #fff;
         align-items: center;
         padding: 20px 0;
         display: none;
         transition: transform 1s ease-in;
+    }
+    .underline {
+        margin-top: -70px;
     }
     .nav-links a {
         color: #000;
