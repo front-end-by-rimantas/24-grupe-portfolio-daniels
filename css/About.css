@@ -1,1 +1,18 @@
-
+.about-me h3 {
+    margin-bottom: 15px;
+    color: #343434;
+}
+.about-sub {
+    text-transform: uppercase;
+    color: #748182;
+}
+.about-me p {
+    margin-bottom: 25px;
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #748182;
+}
+.about-me b {
+    font-weight: bold;
+}
