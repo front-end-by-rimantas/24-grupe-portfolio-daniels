@@ -43,3 +43,25 @@ img{
 #wider{
     padding:60px 0;
 }
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    color: #f4f4f4;
+    background-color: #343434;
+    border: 1px solid #343434;
+}
+.btn:hover {
+    color: #343434;
+    background-color: #f4f4f4;
+    border: 1px solid #343434;
+    transition: .5s;
+}

@@ -2,32 +2,42 @@
     margin-bottom: 30px;
 }
 .skills-progress {
-    display: inline-block;
     width: 100%;
     padding: 5px 10px;
     border-radius: 5px;
     background: #f7f7f7;
-}
-.skills-progress .label {
-    display: inline-block;
-    float: left;
+    position: relative;
 }
 
-.skills-progress .value {
-    display: inline-block;
-    float: right;
+.skills-progress h6 {
+    font-size: 13px;
+    color: #fff;
+    position: relative;
+    z-index: 2;
 }
-.progress-bar > .skills-progress .progress {
+.skills-progress span {
     display: inline-block;
-    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 100%;
+    width: 10%;
+    border-radius: 5px;
+    background-color: #343434;
+
+}
+.skills-progress span:after {
+    content: attr(data-value);
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    font-size: 11px;
+    color: #fff;
 }
 
-.progress-bar > .skills-progress .progress > .loading {
-    display: inline-block;
+/* .skills-progress span .loading {
     width: 100%;
     height: 100%;
-    background-color: #343434;
     animation-name: loading;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -40,4 +50,4 @@
     100% {
         width: 100%;
     }
-}
+} */

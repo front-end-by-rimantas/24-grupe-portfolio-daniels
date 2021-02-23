@@ -64,12 +64,11 @@ class ProgressBar {
     generateProgressBar(progressBar) {
         return `<div class="progress-bar">
                     <div class="skills-progress">
-                        <div class="label">${progressBar.label}</div>
-                        <div class="value">${this.formatNumber(progressBar.value)}%</div>
-                        <span>
-                            <div class="progress" style="width: ${progressBar.value}%;">
-                                <div class="loading"></div>
-                        </span>
+                        <h6>${progressBar.label}</h6>
+                        <div>
+                        <span data-value="${this.formatNumber(progressBar.value)}%" style="width: ${this.formatNumber(progressBar.value)}%;"></span>
+                        <div class="loading"></div>
+                        </div>
                         </div>
                     </div>
                 </div>`;
