@@ -34,23 +34,22 @@ let observer = new IntersectionObserver(navCheck, options);
 
 function navCheck(entries) {
     entries.forEach(entry => {
-        const className = entry.target.className;
-        console.log(className);
+        const className = entry.target.id;
         const activeAnchor = document.querySelector(`[data-page=${className}]`);
         const colorIndex = entry.target.getAttribute('data-index'); //with gradients or diferent colors
         const coords = activeAnchor.getBoundingClientRect();
         const directions = {
-            height: coords.height,
+            height: coords.height -10,
             width: coords.width,
-            top: coords.top,
+            top: coords.top + 20,
             left: coords.left
         };
 
         if (entry.isIntersecting) {
-            underline.style.setPropery('left', `${directions.left}px`);
-            underline.style.setPropery('top', `${directions.top}px`);
-            underline.style.setPropery('width', `${directions.width}px`);
-            underline.style.setPropery('height', `${directions.height}px`);
+            underline.style.setProperty('left', `${directions.left}px`);
+            underline.style.setProperty('top', `${directions.top}px`);
+            underline.style.setProperty('width', `${directions.width}px`);
+            underline.style.setProperty('height', `${directions.height}px`);
             underline.style.background = color[colorIndex];
         }
     });
@@ -59,6 +58,20 @@ function navCheck(entries) {
 sections.forEach(section => {
     observer.observe(section);
 });
+
+
+window.onscroll = function() {
+    scrollFunction()
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 937 || document.documentElement.scrollTop > 937) {
+    document.getElementById('navBar').classList.add('fixed-nav');
+  } else {
+    document.getElementById('navBar').classList.remove('fixed-nav');
+
+  }
+}
 
 
 export { navSlide }

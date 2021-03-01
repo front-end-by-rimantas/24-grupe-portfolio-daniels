@@ -1,6 +1,5 @@
 .hero {
     display: flex;
-    position: relative;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -9,7 +8,7 @@
     background-size: cover;
     background-position: center;
     color: #fff;
-    min-height: 100vh;
+    height: 100vh;
     margin-bottom: 100px;
     width: 100%;
 }
@@ -17,13 +16,13 @@
 .introduction > h1 {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
     justify-content: center;
-    font-size: 50px;
-    font-weight: 800px;
+    margin-bottom: 10px;
+    font-size: 60px;
 }
+
 .introduction > h2 {
-    font-size: 30px;
+    font-size: 60px;
     font-weight: lighter;
 }
 
@@ -31,26 +30,30 @@ b {
     font-weight: normal;
 }
 
+.cd-headline.clip .cd-words-wrapper ::after {
+    content: '';
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 2px;
+    height: 70%;
+    background-color: #aebcb9;
+}
 .cd-headline.clip .cd-words-wrapper {
     white-space: nowrap;
 
 }
-.is-visible::after {
-    content: '';
-    position: absolute;
-    top: 6px;
-    right: 0;
-    width: 2px;
-    height: 80%;
-    background-color: #fff;
 
-}
-
-.cd-headline.clip b.is-hidden {
+b.is-hidden {
     display: none;
 }
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-.socials>.fa {
+.hero > .socials > .fa {
     display: inline-block;
     margin-top: 30px;
     width: 30px;
@@ -66,5 +69,6 @@ b {
 .socials > .fa:hover {
     background-color: #fff4;
     color: #fff4;
+    align-items: center;
 }
 

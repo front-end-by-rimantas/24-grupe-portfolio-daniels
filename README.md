@@ -11,7 +11,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at https://front-end-by-rimantas.github.io/24-grupe-portfolio-daniels/
 
-Design: [Martin](http://inventheme.com/themeforest/martin/)
+Design: [Daniels](http://www.innovationplans.com/idesign/daniels/particles.html#0)
 
 ## Project features
 
