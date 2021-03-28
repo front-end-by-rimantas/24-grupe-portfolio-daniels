@@ -1,4 +1,4 @@
-/* footer */
+
 .copyright {
     background-color: #1c1c1c;
     color: #748182;
@@ -8,3 +8,6 @@
     width: 100%;
     font-size: 13px;
    }
+#shorter{
+    padding:30px;
+}

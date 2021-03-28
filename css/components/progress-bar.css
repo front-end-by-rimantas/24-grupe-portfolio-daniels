@@ -1,0 +1,53 @@
+.progress-bar {
+    margin-bottom: 30px;
+}
+.skills-progress {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #f7f7f7;
+    position: relative;
+}
+
+.skills-progress h6 {
+    font-size: 13px;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+.skills-progress span {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 10%;
+    border-radius: 5px;
+    background-color: #343434;
+
+}
+.skills-progress span:after {
+    content: attr(data-value);
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    font-size: 11px;
+    color: #fff;
+}
+
+/* .skills-progress span .loading {
+    width: 100%;
+    height: 100%;
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loading {
+    0%{
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+} */
